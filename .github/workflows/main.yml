@@ -1,4 +1,4 @@
-name: Simple CI
+name: Simple CI CD
 
 on: [push]
 
@@ -11,3 +11,6 @@ jobs:
 
       - name: Run Test
         run: echo "Code checked successfully"
+
+      - name: Deploy
+        run: echo "Hello CI is now deployed 🚀"
